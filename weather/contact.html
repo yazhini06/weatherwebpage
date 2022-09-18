@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>Weather Forecast</title>
+		<link rel="icon" href="images/logo.png" type="image/x-icon">
+
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style2.css">
+	</head>
+
+	<body>
+		
+		<div class="site-content">
+			<div class="site-header">
+				<div class="container">
+					<a href="index.html" class="branding">
+						<img src="images/logo.png" alt="" class="logo">
+						<div class="logo-type">
+							<h1 class="site-title">Weather Forecast</h1>
+							<!--<small class="site-description">tagline goes here</small>-->
+						</div>
+					</a>
+
+					<!-- Default snippet for navigation -->
+					<div class="main-navigation">
+						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item"><a href="index.html">Home</a></li>
+							<li class="menu-item"><a href="news.html">News</a></li>
+							
+							<li class="menu-item"><a href="photos.html">Photos</a></li>
+							<li class="menu-item current-menu-item"><a href="contact.html">Contact</a></li>
+						</ul> <!-- .menu -->
+					</div> <!-- .main-navigation -->
+
+					<div class="mobile-navigation"></div>
+
+				</div>
+			</div> <!-- .site-header -->
+
+			<main class="main-content">
+				<div class="container">
+					<div class="breadcrumb">
+						<a href="index.html">Home</a>
+						<span>Contact</span>
+					</div>
+				</div>
+
+				<div class="fullwidth-block">
+					<div class="container">
+						<div class="col-md-5">
+							<div class="contact-details">
+								<div>
+								<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62589.38927838923!2d77.71539695!3d11.346626149999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba96f46762f4671%3A0xd97da6e3d9c7f75e!2sErode%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1662269516763!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+									
+								</div>
+								<div class="contact-info">
+									<address>
+										<img src="images/icon-marker.png" alt="">
+										<p>Weather Forecast INC. <br>
+										Erode,Tamilnadu</p>
+									</address>
+									
+									<a href="#"><img src="images/icon-phone.png" alt="">+91 9871234560</a>
+									<a href="#"><img src="images/icon-envelope.png" alt="">contact@weatherapp.com</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-md-offset-1">
+							<h2 class="section-title">Contact us</h2>
+							<p>For more information about Weather Forecast, please contact us.</p>
+							<p>We hope you enjoy Weather Forecast make them one of your regularly visited web sites. We welcome all questions and comments.</p>
+							<form action="#" class="contact-form">
+								<div class="row">
+									<div class="col-md-6"><input type="text" placeholder="Your name..."></div>
+									<div class="col-md-6"><input type="text" placeholder="Email Addresss..."></div>
+								</div>
+								<div class="row">
+									<div class="col-md-6"><input type="text" placeholder="Company name..."></div>
+									<div class="col-md-6"><input type="text" placeholder="Website..."></div>
+								</div>
+								<textarea name="" placeholder="Message..."></textarea>
+								<div class="text-right">
+									<input type="submit" placeholder="Send message">
+								</div>
+							</form>
+
+						</div>
+					</div>
+				</div>
+				
+			</main> <!-- .main-content -->
+
+			<footer class="site-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+							<form action="#" class="subscribe-form">
+								<input type="text" placeholder="Enter your email...">
+								<input type="submit" value="Submit">
+							</form>
+						</div>
+						<div class="col-md-3 col-md-offset-1">
+							<div class="social-links">
+								<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+								<a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+								<a href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a>
+								<a href="https://in.pinterest.com/"><i class="fa fa-pinterest"></i></a>
+								<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer> <!-- .site-footer -->
+		</div>
+		
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		
+	</body>
+
+</html>
